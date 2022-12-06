@@ -1,6 +1,33 @@
-p
-{
-text-align: center;
-color: black;
-font-family: arial
+body {
+    background-color: azure;
+   
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 1px 5px black;
+}
+.heder-nav {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    position: fixed;
+    top: 1em;
+    right: 0px;
+    color: indigo;
+    margin-right: 3%;
+    margin-top: -5px;
+}
+
+h4 {
+    margin-left: 7%;
+    color: indigo;
+}
+
+li {
+    padding: 10px 20px;
+    
 }
